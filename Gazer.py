@@ -114,7 +114,7 @@ def detect():
         if left_detect == True and right_detect == True:
             left_detect = False
             right_detect = False
-            print(L, R)
+            #print(L, R)
 
             return (L, R)
 
@@ -171,7 +171,7 @@ def detect_2(img):
         if left_detect == True and right_detect == True:
             left_detect = False
             right_detect = False
-            print(L, R)
+            #print(L, R)
 
             return (L, R)
 
@@ -566,7 +566,7 @@ while not Exit:
                                 continue
                             else:
                                 move_position.append(process(most_left_left, most_right_left, most_left_right, most_right_right, record_data))
-                                print(move_position)
+                                
 
                         with open("save/detect_eye.txt", "w") as f:
                             for s in move_position:
